@@ -1,6 +1,6 @@
 name = "LifeHistoryAnalysis"
 uuid = "12345678-1234-1234-1234-123456789abc"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Jon Fintzi <jonathan.fintzi@bms.com>", "and Oleksandr Savenkov <oleksandr.savenkov@bms.com>"]
 version = "0.1.0"
 
 [deps]
