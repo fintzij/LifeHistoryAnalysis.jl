@@ -1,15 +1,16 @@
 name = "LifeHistoryAnalysis"
-uuid = "12345678-1234-1234-1234-123456789abc"
+uuid = "8e48d837-2936-43be-af98-0074f6de591a"
 authors = ["Jon Fintzi <jonathan.fintzi@bms.com>", "and Oleksandr Savenkov <oleksandr.savenkov@bms.com>"]
 version = "0.1.0"
 
 [deps]
 
 [compat]
-julia = "1.6"
+julia = "1.9"
 
 [extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Aqua", "Test"]
